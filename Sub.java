@@ -1,133 +1,191 @@
 /*
-01/03(ì›”) 1ì°¨íšŒì˜ -ì„¤ê³„,ì—­í• ë¶„ë‹´
-A. ë©”ì¸(view) ë§Œë“¤ê¸° 
-1. ëˆë„£ê¸° ,ì œí’ˆêµ¬ì…, ì¢…ë£Œ ë²„íŠ¼
-//ëˆë„£ê¸°
-	1. ëˆ ì…ë ¥ ë°›ê¸° ->ì•ˆë‚´ë¬¸êµ¬(í˜„ì¬ ì”ê³ ) -> ë‹¤ì‹œ ì²˜ìŒí™”ë©´
-//ì œí’ˆêµ¬ì…
-	2. ì œí’ˆ ëª©ë¡ ë³´ì—¬ì£¼ê¸° -> ë²ˆí˜¸ì…ë ¥ë°›ê¸° -> ë²ˆí˜¸ë¡œ êµ¬ì…
-		->ìˆì„ì‹œ -> ì•ˆë‚´ë¬¸êµ¬(ë‚¨ì€ ê¸ˆì•¡ ì•ˆë‚´) -> ë‹¤ì‹œ ì œí’ˆ ëª©ë¡
-		->ì—†ì„ì‹œ -> í’ˆì ˆì•ˆë‚´ ->ë‹¤ì‹œ ì œí’ˆ ëª©ë¡ 
-	+ ì œí’ˆêµ¬ì…ì—ì„œ ì‹œí¬ë¦¿ì½”ë“œì…ë ¥ì‹œ ê´€ë¦¬ìëª¨ë“œ
-//ì¢…ë£Œ ë²„íŠ¼
-	3. ì•ˆë‚´ë¬¸êµ¬ì™€ ì˜ìˆ˜ì¦(ë‚¨ì€ëˆ êµ¬ë§¤ë¬¼í’ˆ ì¶œë ¥)
-//+ê´€ë¦¬ìëª¨ë“œ
-	//pkê°€ ì•ˆë³´ì—¬ì•¼í•¨
-	1. ìˆ˜ëŸ‰ ë³€ê²½   
-	2. ë¬¼í’ˆ ëª©ë¡ ë³´ê¸° (ì¬ê³  ë³¼ìˆ˜ìˆê²Œ) 
-	
-+ì¶”ê°€ì‚¬í•­
-1. ì‹œí¬ë¦¿ ì½”ë“œ : 0000
-2. ê°€ê²©ì¶”ê°€
-3. ì˜ìˆ˜ì¦
-*/
+ * 01/05(¼ö) 3Â÷È¸ÀÇ
+1. ¹è¿­Å©±âÁ¤ÇÏ±â = 10°³
+2. toStringÀ¸·Î Á¦Ç°¸ñ·Ïº¸¿©ÁÖ±â		
+3. µ·ÅõÀÔ À¯È¿¼º°Ë»ç			
+4. Á¦Ç°±¸¸ÅºÎºĞ 				
+5. °ü¸®ÀÚ¸ğµå 				
+6. receipt µ¥ÀÌÅÍ °ü¸® ÄÚµå?			
+					
+1. Á¦Ç°±¸¸ÅºÎºĞ
+2. toString
+3. °ü¸®ÀÚ¸ğµå or À¯È¿¼º,receipt 
+°¢ÀÚ ¸¸µé¾îº»´ÙÀ½¿¡ ´ÙÀ½³¯ 8½Ã¿¡ ÄÚµå¸®ºä
+ */
 
-public class Sub {
-	
-	//ì¶”ìƒí´ë˜ìŠ¤ Beverage
-	//name, PK, stock
-	//toStringìœ¼ë¡œ ì œí’ˆ í™”ë©´ ì¶œë ¥
-	
-	//ìì‹í´ë˜ìŠ¤ 
-	//Jiuce, CarbonatedDrink, SportDrink
+import java.util.Scanner;
 
-	//+ê´€ë¦¬ìëª¨ë“œ
-	//ì¶”ìƒí´ë˜ìŠ¤ì— êµ¬í˜„
-	//1. Getter, Setterë¥¼ í†µí•œ ì „ì²´ ì •ë³´ í™•ì¸ (PKì œì™¸)
-	//2. ìˆ˜ëŸ‰ë³€ê²½
-	//3. ì¢…ë£Œ
-
-	public static void main(String[] args) {
-		//ìŒë£Œìˆ˜[] data = ìŒë£Œìˆ˜ ë°°ì—´[í¬ê¸°]
-		//ê¸°ë³¸ì œê³µìŒë£Œ
-		
-		//ë³€ìˆ˜
-		//ì†Œì§€ê¸ˆ, ì˜ìˆ˜ì¦, ì‹œí¬ë¦¿ì½”ë“œ
-		
-		while() 
-		{
-			//ì²«í™”ë©´
-			//ë²„íŠ¼ : ëˆíˆ¬ì…, ì œí’ˆêµ¬ì…, ì¢…ë£Œ
-			
-			//1 ëˆíˆ¬ì…
-			if(ëˆ) 
-			{
-				
-				//ëˆ ì…ê¸ˆ ë°›ê¸°
-				//ì•ˆë‚´ë¬¸êµ¬ (í˜„ì¬ì”ì•¡)
-				//ì²«í™”ë©´ìœ¼ë¡œ
-			}
-			//2 ì œí’ˆêµ¬ì…
-			else if(ì œí’ˆ) 
-			{
-				while() 
-				{
-					//ì œí’ˆ ëª©ë¡ í‘œì‹œ
-					//ì œí’ˆë²ˆí˜¸ ë°›ê¸°
-						switch(ì œí’ˆ ë²ˆí˜¸) //ifë¡œë„ ê°€ëŠ¥ 
-						{ 
-							case ì²«í™”ë©´:
-								//ì²«í™”ë©´ìœ¼ë¡œ
-							case ì œí’ˆë²ˆí˜¸:
-								if(ì†Œì§€ê¸ˆì´ ë¶€ì¡±í• ê²½ìš°)
-									//ì•ˆë‚´ë¬¸êµ¬
-									//ì œí’ˆëª©ë¡í™”ë©´ìœ¼ë¡œorì²«í™”ë©´ìœ¼ë¡œ
-								
-								if(í’ˆì ˆ) 
-								{
-									//ì•ˆë‚´ë¬¸êµ¬
-									//ì œí’ˆëª©ë¡í™”ë©´
-								}
-								else 
-								{
-									//ì¬ê³ --
-									//ì†Œì§€ê¸ˆ-=ê°€ê²©
-									//ì˜ìˆ˜ì¦ì— ì¶”ê°€
-									//ì•ˆë‚´ë¬¸êµ¬(ë‚¨ì€ê¸ˆì•¡)
-									//ì œí’ˆëª©ë¡í™”ë©´ìœ¼ë¡œ
-								}
-							case ì‹œí¬ë¦¿ì½”ë“œ:
-								//ê´€ë¦¬ìëª¨ë“œ ì‹¤í–‰
-								//ì œí’ˆëª©ë¡í™”ë©´
-						}
-				}
-			}
-			//3 ì¢…ë£Œ ë° ì˜ˆì™¸ì„± ì…ë ¥
-			else if(ì¢…ë£Œ) 
-			{
-				//ì•ˆë‚´ë¬¸êµ¬ (ex.ì´ìš©í•´ì£¼ì…”ì„œ ê°ì‚¬í•©ë‹ˆë‹¤)
-				//ì˜ìˆ˜ì¦ ì¶œë ¥
-			}
-			else 
-			{ 
-				//ì•ˆë‚´ë¬¸êµ¬ (ìœ íš¨ì„±ê²€ì‚¬)
-				break;
-			}
-			
-		}
-		
-		
-		
-		
+abstract class Beverage {
+	private static int pkNum = 1000;
+	
+	private int pk ; // DB°ü¸®¸¦ À§ÇÑ º¯¼ö
+	private String name; // À½·á¼ö ÀÌ¸§
+	private int stock; // À½·á¼ö Àç°í
+	private int price; // À½·á¼ö °¡°İ
+	
+	public Beverage(String name) {
+		this(name,0,0);
 	}
+
+	public Beverage(String name,int stock, int price) {
+		this.name = name;
+		this.stock = stock;
+		this.price = price;
+		this.pk = pkNum++;
+	}
+	
+	
+	// Name
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	// Stock
+	public int getStock() {
+		return stock;
+	}
+
+	public void setStock(int stock) {
+		this.stock = stock;
+	}
+
+	// Price
+	public int getPrice() {
+		return price;
+	}
+
+	public void setPrice(int price) {
+		this.price = price;
+	}
+
 }
 
+class Juice extends Beverage {
 
-//ê³ ê¸‰ (ì½˜ì†”ì—ì„œ ëª¨ë“ ì…ë ¥ì—ëŒ€í•´ ì˜¤ë¥˜ë°©ì§€)
-//ìœ íš¨ì„± ê²€ì‚¬
-/*
-1.ë²„í¼ì œê±°
-while(sc.hasNext())			
-	sc.nextLine();
+	public Juice(String name) {
+		super(name);
+	}
 	
-2.ì…ë ¥ë°›ê¸°
-String str = sc.nextLine();
-3.ê²€ì‚¬
-ë¹ˆê³µê°„ = if(strPw.trim().isEmpty() || strPw == null)
-ì†Œìˆ˜ = for(str.charAt(i))
-		'.'ì´ ì¡´ì¬í•˜ë‹¤ë©´ ì†Œìˆ˜
-ë¬¸ìì—´ = for(v:str.toUpperCase().charAt(i))
-		'A' <= v-'A' <= 'Z' ì´ í•œê°œë¼ë„ ìˆìœ¼ë©´ ë¬¸ìì—´
-else
-ì •ìˆ˜ = Intger.parseInt(str)
-*/
+	public Juice(String name, int stock, int price) {
+		super(name, stock, price);
+	}
+
+}
+
+class CarbonatedDrink extends Beverage {
+
+	public CarbonatedDrink(String name) {
+		super(name);
+	}
+	
+	public CarbonatedDrink(String name, int stock, int price) {
+		super(name, stock, price);
+	}
+
+}
+
+class SportDrink extends Beverage {
+	
+	public SportDrink(String name) {
+		super(name);
+	}
+
+	public SportDrink(String name, int stock, int price) {
+		super(name, stock, price);
+	}
+
+}
+
+public class Sub {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		// À½·á¼ö[] data = À½·á¼ö ¹è¿­[Å©±â]
+		Beverage[] data = new Beverage[10];
+		// ±âº»Á¦°øÀ½·á
+		data[0] = new Juice("ÁÖ½º");
+		data[1] = new CarbonatedDrink("Åº»êÀ½·á");
+		data[2] = new SportDrink("ÀÌ¿ÂÀ½·á");
+
+		// º¯¼ö
+		// ¼ÒÁö±İ, ¿µ¼öÁõ, ½ÃÅ©¸´ÄÚµå
+		int money = 0;
+		String receipt = "";
+		int code = 0000;
+
+		while (true) {
+			System.out.println("===========================");
+			System.out.println("       À½·á¼ö ÀÚÆÇ±â          ");
+			//toString Á¦Ç°¹øÈ£(¹è¿­ÀÎµ¦½º+1)+Á¦Ç°ÀÌ¸§ + °¡°İ
+			System.out.println("1. µ·ÅõÀÔ 2. Á¦Ç°±¸ÀÔ 3. Á¾·á");
+			System.out.print("¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+			System.out.println();
+			System.out.println("===========================");
+			int num = sc.nextInt();
+			
+			// Ã¹È­¸é
+			// ¹öÆ° : µ·ÅõÀÔ, Á¦Ç°±¸ÀÔ, Á¾·á
+
+			// 1 µ·ÅõÀÔ
+			if (num == 1) {
+				System.out.print("¾ó¸¶¸¦ ÀÔ·ÂÇÏ½Ã°Ú½À´Ï±î? : ");
+				//À¯È¿¼º°Ë»çÇÊ¿ä
+				money += sc.nextInt(); 
+				System.out.println("ÇöÀç ÀÜ¾×Àº " + money + "¿ø ÀÔ´Ï´Ù."); // ¾È³»¹®±¸ (ÇöÀçÀÜ¾×)
+				continue; // Ã¹È­¸éÀ¸·Î
+
+			}
+			// 2 Á¦Ç°±¸ÀÔ
+			else if (num == 2) {
+				while (true) {
+					System.out.print("¸¶½Ç À½·áÀÇ ¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+					int act = sc.nextInt();
+					
+					if(act == 0000) {
+						//»õ·Î¸¸µéºÎºĞ
+						manage();
+					}
+					
+					//»õ·Î¸¸µéºÎºĞ
+					//Á¦Ç°±¸ÀÔ
+					//¹è¿­·Î ¹Ş¾Æ¼­ Á¤º¸º¯°æ
+					//1.buy·Î Ã³À½ºÎÅÍ ¸ğµç ÀÔÃâ·Â´ã´ç 2.¹øÈ£ÀÔ·Â¹ŞÀºÈÄ buy·ÎÁ¤º¸º¯°æ 3.buy¸Ş¼­µå¸¦ ¾²Áö¾Ê°í mainºÎºĞ¿¡¼­ Ã³¸®
+			
+					else { 
+						// ¾È³»¹®±¸ (À¯È¿¼º°Ë»ç)
+						System.out.println("Àß¸øµÈ ÀÔ·ÂÀÔ´Ï´Ù. ´Ù½Ã ÀÔ·ÂÇÏ¼¼¿ä. ");
+						continue;
+					}
+					
+				}
+
+			}
+			// 3 Á¾·á ¹× ¿¹¿Ü¼º ÀÔ·Â
+			else if (num == 3) {
+				// ¿µ¼öÁõ Ãâ·Â
+				System.out.println(receipt+"¸¦ ±¸¸ÅÇÏ¼Ì½À´Ï´Ù.");
+				System.out.println("ÀÌ¿ëÇØÁÖ¼Å¼­ °¨»çÇÕ´Ï´Ù.");
+				break;
+			} else {
+				// ¾È³»¹®±¸ (À¯È¿¼º°Ë»ç)
+				System.out.println("Àß¸øµÈ ÀÔ·ÂÀÔ´Ï´Ù. ´Ù½Ã ÀÔ·ÂÇÏ¼¼¿ä. ");
+				continue;
+			}
+
+		}
+
+	}
+
+	private static void manage() {
+		//°ü¸®ÀÚ¸ğµå
+	}
+	
+	private static void buy(Beverage b){
+		b.getPrice();
+		b.getStock();
+	}
+
+}
