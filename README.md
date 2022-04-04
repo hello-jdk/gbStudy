@@ -22,6 +22,6 @@ https://github.com/hello-jdk/java/tree/main/01_24_02_08_MVC%ED%81%AC%EB%A1%A4%EB
 https://github.com/hello-jdk/kmaApi<br><br>
 
 7차 과제 : 02/28(월) ~ 03/25(금)<br>
-홈페이지 도자기 갤러리 쇼핑몰 <br><br>
-
+홈페이지 도자기 갤러리 쇼핑몰 <br>
+https://github.com/hello-jdk/CeramicShop <br><br>
 
